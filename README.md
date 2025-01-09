@@ -34,7 +34,7 @@ To set up the database, follow these steps:
 --Installation--
 
 1.Clone the repository:
-git clone https://github.com/yourusername/cinema-booking-system.git
+git clone https://github.com/ebixhaferaj/cinema-booking-system.git
 
 2. Import the database schema from the database/schema.sql file into your MySQL server.
 3.Configure the database connection in the config.php file.
