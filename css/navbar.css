@@ -1,0 +1,26 @@
+/* NAV BAR */
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: grey;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+.form-control::placeholder {
+    color: grey;
+    opacity: 1; 
+}
+
+.navbar-nav .nav-link.active {
+    color: white !important;
+}
+
+/* Style when hovering over non-active nav links */
+.navbar-nav .nav-link:hover {
+    color: white !important; /* Ensure hover effect is applied */
+}

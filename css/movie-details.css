@@ -1,0 +1,21 @@
+.card{
+    background-color: rgb(56,56,56);
+    border-color: grey;
+    color: white;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(56,56,56); 
+    border-radius: 8px;
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+

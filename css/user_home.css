@@ -1,0 +1,52 @@
+/* Cards + Carousel */
+.card{
+    width: 17rem;
+    overflow: hidden; 
+    position: relative;
+    border: none;
+    background-color: rgb(32,32,32);
+    color: white;
+   
+}
+
+.carousel {
+    max-width: 80%; 
+    margin: auto; 
+}
+
+.carousel-inner img {
+    height: 400px; 
+    object-fit: cover;
+    width: 100%; 
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    transition: transform 0.5s ease;
+    width: 100%; 
+    display: block;
+}
+
+.card-img-top {
+    transition: transform 0.5s ease !important; 
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05) !important; /* Force the zoom effect */
+}
+
+.card-title{
+    text-transform: uppercase;
+}
+
+.card:hover .card-title{
+    color: grey;
+}
+
+.card a{
+    color: unset;
+    text-decoration: none;
+}
